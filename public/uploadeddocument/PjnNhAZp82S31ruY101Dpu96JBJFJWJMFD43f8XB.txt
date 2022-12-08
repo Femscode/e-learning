@@ -1,0 +1,8 @@
+king(King, Year) :- reigns(King, Begin, End),
+Year >= Begin,
+Year =< End.
+reigns(kelvin,1950,1975).
+reigns(rhodri, 1976, 1989).
+reigns(lago_ad_idwal, 1990, 2001).
+reigns(cadwallon, 2002, 2010).
+reigns(abdul, 2011, tilldate).
