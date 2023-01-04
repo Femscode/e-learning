@@ -9,5 +9,5 @@ class Assigndocument extends Model
 {
     use HasFactory;
     protected $guarded = [];
-    protected $table = 'Assigndocuments';
+    protected $table = 'assigndocuments';
 }
