@@ -16,10 +16,10 @@ use Illuminate\Support\Str;
 class UserController extends Controller
 {
     public function destroy(Request $request) {
-        
+        return true;
         $id = $request->id;
         $user = User::find($id);
-        $user->delete();
+        // $user->delete();
 
     }
     public function test()
