@@ -9,7 +9,7 @@
             <div class="header">
                 <img class="logo" src="{{asset('assets/images/logo.svg')}}" alt="">
                 <h5>Sign Up</h5>
-                <span>Register a new membership edited</span>
+                <span>Register as a new member</span>
             </div>
             <div class="body">
                 @if (count($errors) > 0)
