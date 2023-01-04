@@ -123,7 +123,7 @@
             {
                
                 try {
-                        $.get('{{ route('user.fakedestroy') }}?id=' + id,
+                        $.get('{{ route('user.destroy') }}?id=' + id,
                         function (data, status) {
                             console.log(status);
                             console.table(data);
